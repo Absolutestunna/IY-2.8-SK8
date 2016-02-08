@@ -1,0 +1,25 @@
+body {
+  background-color: red;
+}
+.subscribe-link {
+  float: right;
+  padding-right: 30px;
+  border-right-style: dotted;
+  border-right: 1px green;
+
+}
+.social-links li{
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+.container {
+  border: 2px solid green;
+}
+
+.primary-nav  {
+  color: white;
+}
+articles {
+  background-color: white;
+}
