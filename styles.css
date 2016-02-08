@@ -1,25 +1,60 @@
 body {
   background-color: red;
+  margin: 0;
+}
+
+.facebook i{
+  color: #435896;
+}
+.rss i{
+  color: #CC9031;
+}
+.twitter i{
+  color: #6A8DC6;
+}
+.youtube i{
+  color: #B1382B;
+}
+
+.social-nav {
+  margin-bottom: 30px;
+}
+.social-nav a {
+  float: right;
+
 }
 .subscribe-link {
   float: right;
   padding-right: 30px;
-  border-right-style: dotted;
-  border-right: 1px green;
-
+  height: 60px;
+  position: absolute;
+  top: 20px;
+}
+.social-links {
+  margin: -15px;
+  float: right;
 }
 .social-links li{
-  border: none;
-  height: 30px;
-  width: 30px;
-}
-.container {
-  border: 2px solid green;
+  list-style: none;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  font-size: 60px;
 }
 
-.primary-nav  {
-  color: white;
+.container {
+  border: 2px solid green;
+  margin: 0;
+  padding: 0;
 }
-articles {
-  background-color: white;
+.links {
+  text-align: center;
+  background-color: #B3292E;
+}
+.links a {
+  color: white;
+  background-color: #B3292E;
+}
+article {
+  background-color: red;
 }
