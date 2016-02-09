@@ -90,7 +90,10 @@ First Row (first pic)
 /***********************************************************************
 Second Row (Tony Hawk descriptions 3 of them)
 *************************************************************************/
-
+.tony  {
+  height: 350px;
+  padding: 0;
+}
 .tony article {
   background-color: white;
 }
