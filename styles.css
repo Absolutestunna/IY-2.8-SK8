@@ -100,3 +100,11 @@ body {
   border: 1px solid yellow;
   height: 361px;
 }
+.mess-type {
+  margin-top: 35px;
+}
+.mess-type button {
+  float: right;
+  color: red;
+  background-color: green;
+}
