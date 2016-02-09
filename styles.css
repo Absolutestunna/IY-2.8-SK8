@@ -47,14 +47,20 @@ body {
   margin: 0;
   padding: 0;
 }
-.links {
+.primary-nav {
+  margin-bottom: 20px;
+}
+.nav li {
+  background-color: #B3292E;
+  width: 24.86%;
+  height: 29px;
   text-align: center;
-  background-color: #B3292E;
-}
-.links a {
   color: white;
-  background-color: #B3292E;
+  padding-top: 10px;
 }
-article {
-  background-color: red;
+.firstpic {
+  background-image: url(mancam.jpg);
+  height: 357px;
+  background-image: cover;
+  border: 3px solid white;
 }
