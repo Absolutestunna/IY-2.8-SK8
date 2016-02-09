@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-image: url(NYBridge.jpg);
   margin: 0;
 }
 
@@ -63,4 +63,40 @@ body {
   height: 357px;
   background-image: cover;
   border: 3px solid white;
+}
+.description {
+  border: 1px solid black;
+  background-color: white;
+  height: 350px;
+}
+.tony {
+  padding-left: 0;
+  padding-right: 0;
+}
+.headcount {
+  border: 1px solid purple;
+  height: 474px;
+}
+.tommy {
+  border: 1px solid yellow;
+  height: 474px;
+  background-image: url("https://unsplash.it/600/800");
+}
+.lrm {
+  border: 1px solid yellow;
+  height: 232px;
+  background-image: url("https://unsplash.it/400/300");
+  background-image: cover;
+}
+.steve {
+  border: 1px solid yellow;
+  height: 240px;
+  background-image: url("https://unsplash.it/800/300");
+}
+.row4  {
+  margin-bottom: 10px;
+}
+.contact {
+  border: 1px solid yellow;
+  height: 361px;
 }
