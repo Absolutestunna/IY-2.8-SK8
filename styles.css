@@ -86,7 +86,7 @@ body {
   border: 1px solid yellow;
   height: 232px;
   background-image: url("https://unsplash.it/400/300");
-  background-image: cover;
+  background-size: cover;
 }
 .steve {
   border: 1px solid yellow;
@@ -96,10 +96,18 @@ body {
 .row4  {
   margin-bottom: 10px;
 }
+.skateboard {
+  height: 295px;
+  background-image: url("https://unsplash.it/800/300");
+  background-size: cover;
+  margin-bottom: 20px;
+}
 .contact {
   border: 1px solid yellow;
   height: 361px;
+  background-color: white;
 }
+
 .mess-type {
   margin-top: 35px;
 }
