@@ -1,9 +1,47 @@
 body {
-  background-image: url(NYBridge.jpg);
+  background-image: url(http://unsplash.it/g/1920/1920);
   /*background-size: cover;*/
   margin: 0;
 }
 
+.container {
+  border: 2px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+/***********************************************************************
+NAV (includes subscribe div and social links);
+*************************************************************************/
+
+
+/***************
+Subscribe
+****************/
+
+.subscribe-link {
+  float: right;
+  padding-right: 30px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+}
+
+
+/***************
+Social Links
+****************/
+.social-links {
+  margin: -15px;
+  float: right;
+}
+.social-links li{
+  list-style: none;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  font-size: 60px;
+}
 .facebook i{
   color: #435896;
 }
@@ -16,42 +54,21 @@ body {
 .youtube i{
   color: #B1382B;
 }
-
 .social-nav {
   margin-bottom: 30px;
 }
 .social-nav a {
   float: right;
-
-}
-.subscribe-link {
-  float: right;
-  padding-right: 30px;
-  height: 60px;
-  position: absolute;
-  top: 20px;
-}
-.social-links {
-  margin: -15px;
-  float: right;
-}
-.social-links li{
-  list-style: none;
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  font-size: 60px;
 }
 
-.container {
-  border: 2px solid green;
-  margin: 0;
+
+/***********************************************************************
+Primary Navigation
+*************************************************************************/
+.top-nav {
   padding: 0;
 }
-.primary-nav {
-  margin-bottom: 20px;
-}
-.nav li {
+.top-nav li {
   background-color: #B3292E;
   width: 24.86%;
   height: 29px;
@@ -59,20 +76,30 @@ body {
   color: white;
   padding-top: 10px;
 }
-.firstpic {
+
+/***********************************************************************
+First Row (first pic)
+*************************************************************************/
+.firstrow {
   background-image: url(mancam.jpg);
   height: 357px;
   background-image: cover;
   border: 3px solid white;
 }
-.description {
-  border: 1px solid black;
+
+/***********************************************************************
+Second Row (Tony Hawk descriptions 3 of them)
+*************************************************************************/
+
+.tony article {
   background-color: white;
-  height: 350px;
 }
-.tony {
-  padding-left: 0;
-  padding-right: 0;
+
+/***********************************************************************
+Third Row (headcount pics) also called row4
+*************************************************************************/
+.row4  {
+  margin-bottom: 10px;
 }
 .headcount {
   border: 1px solid purple;
@@ -94,15 +121,20 @@ body {
   height: 240px;
   background-image: url("https://unsplash.it/800/300");
 }
-.row4  {
-  margin-bottom: 10px;
-}
+
+/***********************************************************************
+Fourth Row (skateboard pics)
+*************************************************************************/
+
 .skateboard {
   height: 295px;
   background-image: url("https://unsplash.it/800/300");
   background-size: cover;
   margin-bottom: 20px;
 }
+/***********************************************************************
+Fifth Row (contact information)
+*************************************************************************/
 .contact {
   border: 1px solid yellow;
   height: 361px;
