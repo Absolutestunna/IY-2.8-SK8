@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-  border: 2px solid green;
   margin: 0;
   padding: 0;
 }
@@ -143,11 +142,9 @@ Third Row (headcount pics) also called row4
   margin-bottom: 10px;
 }
 .headcount {
-  border: 1px solid purple;
   height: 474px;
 }
 .tommy {
-  border: 1px solid yellow;
   height: 473px;
 }
 .tommy span {
@@ -156,7 +153,6 @@ Third Row (headcount pics) also called row4
   height: 473px;
 }
 .lrm {
-  border: 1px solid yellow;
   height: 232px;
 }
 .lrm span {
@@ -170,7 +166,6 @@ Third Row (headcount pics) also called row4
 }
 
 .steve {
-  border: 1px solid yellow;
   height: 240px;
 }
 .steve span {
@@ -212,13 +207,12 @@ Fifth Row (skateboard pics)
 /***********************************************************************
 Fifth Row  (contact information)
 *************************************************************************/
+
 .contact {
-  border: 1px solid yellow;
   height: 361px;
   background-color: white;
   position: relative;
 }
-
 .mess-type {
   margin-top: 35px;
 }
@@ -226,4 +220,27 @@ Fifth Row  (contact information)
   float: right;
   color: red;
   background-color: green;
+}
+.fsocial-links {
+  padding: 0;
+  margin-top: 40px;
+}
+.fsocial-links li {
+  list-style: none;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+}
+.ffacebook i{
+  color: #435896;
+}
+.frss i{
+  color: #CC9031;
+}
+.ftwitter i{
+  color: #6A8DC6;
+}
+.fyoutube i{
+  color: #B1382B;
 }
