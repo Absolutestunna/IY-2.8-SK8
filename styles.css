@@ -1,6 +1,7 @@
 body {
   background-image: url(./skateboard-images/bg.jpg);
   margin: 0;
+  padding: 0;
   position:relative;
 }
 
@@ -191,11 +192,15 @@ Third Row (headcount pics) also called row4
 .tommy {
   height: 473px;
 }
+.tommy p {
+  margin-top: 100px;
+}
 .tommy span {
   background-image: url(./skateboard-images/sk8er-2.png);
   background-size: cover;
   background-position: right;
   height: 493px;
+  border: 5px solid white;
 }
 .lrm {
   height: 232px;
@@ -205,18 +210,35 @@ Third Row (headcount pics) also called row4
   padding-left: 32%;
   padding-right: 68%;
   text-align: center;
-  padding-top: 19%;
+  padding-top: 25%;
 
 }
+
 .rodney {
   background-image: url(./skateboard-images/sk8er-3.png);
   background-size: cover;
   background-position: right;
+  border: 5px solid white;
+  height: 100%;
+}
+.rodney p {
+  color: #FFF;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
 }
 .mountain {
   background-image: url(./skateboard-images/sk8er-4.png);
   background-size: cover;
   background-position: right;
+  height: 100%;
+  border: 5px solid white;
+}
+.mountain p {
+  color: #FFF;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
 }
 
 .steve span {
@@ -224,12 +246,20 @@ Third Row (headcount pics) also called row4
   background-position: center;
   background-size: cover;
   height: 240px;
-
+  border: 5px solid white;
+  width: 760px;
+}
+.steve p {
+  color: #FFF;
+  margin: 0 auto;
+  padding-top: 70px;
 }
 .span-name {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: bold;
   display: block;
+  text-align: center;
 }
 
 /***********************************************************************
@@ -260,9 +290,6 @@ Fifth Row (skateboard pics)
   display: inline-block;
   padding: 20px;
 }
-
-
-
 /***********************************************************************
 Fifth Row  (contact information)
 *************************************************************************/
