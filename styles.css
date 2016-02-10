@@ -1,3 +1,4 @@
+
 body {
   background-image: url(http://unsplash.it/g/1920/1920);
   margin: 0;
@@ -34,6 +35,10 @@ Subscribe
 .subscribe-link a {
   color: white;
 
+}
+.subscribe-link a:hover {
+  color: white;
+  text-decoration: none;
 }
 /***************
 Border
@@ -244,3 +249,105 @@ Fifth Row  (contact information)
 .fyoutube i{
   color: #B1382B;
 }
+
+/********************************************************************
+                      MEDIA QUERIES
+*******************************************************************/
+
+
+/************************
+Medium size (Desktops)
+*************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+        .container {
+          margin: 0;
+          padding: 0;
+        }
+
+        .subscribe-link {
+          float: right;
+          padding-right: 30px;
+          height: 50px;
+          top: 14px;
+        }
+
+        .social-links li{
+          list-style: none;
+          display: inline-block;
+          height: 50px;
+          width: 50px;
+          font-size: 50px;
+        }
+        .nav-pills{
+          padding: 0;
+        }
+        .top-nav li {
+          background-color: #B3292E;
+          width: 24.82%;
+          height: 29px;
+          text-align: center;
+          color: white;
+
+        }
+        .nav-top {
+          margin-left: 16%;
+          margin-right: 16%;
+        }
+
+          /*second-row*/
+
+
+        .second-row  {
+          margin-bottom: 120px;
+        }
+   }
+
+
+   /************************
+   Small size (Tablets)
+   *************************/
+   @media (min-width: 768px) and (max-width: 991px) {
+
+     .social-links li{
+       height: 50px;
+       width: 50px;
+       font-size: 50px;
+     }
+     .subscribe-link {
+      position: absolute;
+      right: 400px;
+     }
+     .top-nav li {
+       background-color: #B3292E;
+       width: 24.8%;
+       height: 29px;
+       text-align: center;
+       color: white;
+
+     }
+     .nav-top {
+       font-size: 11px;
+       margin-left: 17%;
+       margin-right: 17%;
+     }
+     .second-row  {
+       margin-bottom: 250px;
+     }
+     .lrm {
+       margin-bottom: 150px;
+       height: 200px;
+     }
+     .tommy {
+       margin-top: 500px;
+       margin-bottom: 50px;
+     }
+     .contact {
+       height: 540px;
+     }
+     /************************
+     X-Small (cellphones)
+     *************************/
+
+   }
