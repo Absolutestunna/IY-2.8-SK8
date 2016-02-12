@@ -1,5 +1,5 @@
 body {
-  background: url(./skateboard-images/bg.jpg) center center fixed;
+  background: url(./skateboard-images/bg.jpg) center center;
   background-size: cover;
   height: 100%;
   /*background-position: center;*/
@@ -61,6 +61,10 @@ body {
 .dropdown{
   top: 15px;
   }
+.drop li {
+  background-color: red;
+  padding: 0;
+}
 
 
 
@@ -165,7 +169,7 @@ First Row (first pic)
 *************************************************************************/
 .firstrow {
   position: relative;
-  background-image: url(mancam.jpg);
+  background: url(skateboard-images/top-image.png)center center fixed;
   height: 357px;
   background-image: cover;
   border: 3px solid white;
@@ -225,7 +229,7 @@ Third Row (headcount pics) also called row4
 }
 
 .rodney {
-  background-image: url(./skateboard-images/sk8er-3.png);
+  background: url(./skateboard-images/sk8er-3.png)center center;
   background-size: cover;
   background-position: right;
   border: 5px solid white;
@@ -238,7 +242,7 @@ Third Row (headcount pics) also called row4
   left: 15px;
 }
 .mountain {
-  background-image: url(./skateboard-images/sk8er-4.png);
+  background: url(./skateboard-images/sk8er-4.png)center center;
   background-size: cover;
   background-position: right;
   height: 100%;
@@ -252,7 +256,7 @@ Third Row (headcount pics) also called row4
 }
 
 .steve span {
-  background-image: url(./skateboard-images/sk8er-1.png);
+  background: url(./skateboard-images/sk8er-1.png)center center;
   background-position: center;
   background-size: cover;
   height: 240px;

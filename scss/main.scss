@@ -9,13 +9,15 @@
 
 
 
-@media (max-width:400px) {
+@media (min-width:400px) and (max-width: 774px) {
 
   .drop {
     li {
       background-color: red;
       color: white;
       width: 100%;
+      text-align: center;
+      padding: 0;
     }
     li:hover {
       background-color: black;
@@ -44,5 +46,15 @@
       top: 200px;
     }
   }
-
+  .fifth-row {
+    margin-top: 43px;
+    height: 1200px;
+  }
+  .skateboard-row {
+    height: 100%;
+  }
+  .contact {
+    height: 100%;
+    margin-top: 23px;
+  }
 } //end of media
