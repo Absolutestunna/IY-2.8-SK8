@@ -5,10 +5,22 @@ body {
   position:relative;
 }
 
+/***********************************************************************
+NAVIGATION + TITLE
+*************************************************************************/
+
 .drop li {
   background-color: red;
   padding: 0;
 }
+
+.navbar-brand {
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 
 
 
