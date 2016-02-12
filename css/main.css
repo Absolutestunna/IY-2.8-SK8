@@ -5813,8 +5813,9 @@ button.close {
     display: none !important; } }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  width: 700%;
-  margin: auto; }
+  width: 100%;
+  margin: auto;
+  height: 300px; }
 
 @media (min-width: 400px) and (max-width: 774px) {
   .drop li {

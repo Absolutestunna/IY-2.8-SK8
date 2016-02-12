@@ -5,9 +5,6 @@ body {
   position:relative;
 }
 
-/*.dropdown{
-  top: 15px;
-  }*/
 .drop li {
   background-color: red;
   padding: 0;
