@@ -6,7 +6,11 @@
 @import "../styles.css";
 
 
-
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
 
 
 @media (min-width:400px) and (max-width: 774px) {

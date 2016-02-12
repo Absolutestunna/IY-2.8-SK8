@@ -2,65 +2,12 @@ body {
   background: url(./skateboard-images/bg.jpg) center center;
   background-size: cover;
   height: 100%;
-  /*background-position: center;*/
   position:relative;
 }
 
-.arrow_box {
-	position: relative;
-	background: #d031d5;
-	border: 4px solid #c2e1f5;
-  width: 100px;
-  height: 50px;
-  top: 1200px;
-  color: white;
-
-}
-.arrow_box p {
-  position: absolute;
-  top: 11px;
-  font-size: 10.8px;
-}
-.arrow_box:after, .arrow_box:before {
-	left: 100%;
-	top: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-
-.arrow_box:after {
-	border-color: rgba(208, 49, 213, 0);
-	border-left-color: #d031d5;
-	border-width: 20px;
-	margin-top: -20px;
-}
-.arrow_box:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-left-color: #c2e1f5;
-	border-width: 26px;
-	margin-top: -26px;
-}
-.overlay {
-
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: #5B5A58;
-  opacity: .8;
-}
-
-.container {
-  margin: 0;
-  padding: 0;
-}
-
-.dropdown{
+/*.dropdown{
   top: 15px;
-  }
+  }*/
 .drop li {
   background-color: red;
   padding: 0;
@@ -183,11 +130,18 @@ Second Row (Tony Hawk descriptions 3 of them)
 }
 .tony  {
   height: 350px;
+
   /*padding: 0;*/
 }
 .tony article {
   background-color: white;
 }
+.tony h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+
+}
+
 
 
 /***********************************************************************

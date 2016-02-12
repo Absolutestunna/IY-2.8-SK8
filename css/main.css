@@ -5811,6 +5811,11 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 700%;
+  margin: auto; }
+
 @media (min-width: 400px) and (max-width: 774px) {
   .drop li {
     background-color: red;
