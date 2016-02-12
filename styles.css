@@ -1,7 +1,8 @@
 body {
-  background-image: url(./skateboard-images/bg.jpg);
-  margin: 0;
-  padding: 0;
+  background: url(./skateboard-images/bg.jpg) center center fixed;
+  background-size: cover;
+  height: 100%;
+  /*background-position: center;*/
   position:relative;
 }
 
@@ -43,10 +44,6 @@ body {
 	border-width: 26px;
 	margin-top: -26px;
 }
-
-
-
-
 .overlay {
 
   position: absolute;
@@ -60,6 +57,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.dropdown{
+  top: 15px;
+  }
+
+
 
 /***********************************************************************
 NAV (includes subscribe div, dotted border and social links);

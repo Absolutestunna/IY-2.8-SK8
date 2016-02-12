@@ -4,3 +4,45 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @import "../styles.css";
+
+
+
+
+
+@media (max-width:400px) {
+
+  .drop {
+    li {
+      background-color: red;
+      color: white;
+      width: 100%;
+    }
+    li:hover {
+      background-color: black;
+    }
+  }
+  .nav-top {
+    a {
+      text-decoration: none;
+      color: white;
+
+
+    }
+    a:hover {
+      text-decoration: none;
+        color: white;
+    }
+  }
+  .right {
+    float: right;
+    padding-right: 0;
+  }
+
+  .steve {
+    .span-name {
+      width: 380px;
+      top: 200px;
+    }
+  }
+
+} //end of media

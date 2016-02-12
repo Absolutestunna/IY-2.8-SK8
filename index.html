@@ -1,44 +1,83 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8">
     <title>Sk8</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="css/main.css" media="screen">
+
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 
 
   </head>
   <body>
 
+
     <div class="overlay"></div>
-    <div class="arrow_box"><p>SKATEBOARDERS</p></div>
+
+    <div class="arrow_box hidden-xs hidden-sm hidden-md"><p>SKATEBOARDERS</p></div>
+
+
     <div class="container">
+
+<!-- Navigation-->
+
+  <div class="dropdown hidden-md hidden-lg">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+      <span class="caret"></span></button>
+        <ul class="dropdown-menu drop">
+          <li role="presentation" class="col-xs-12 col-md-3">
+            <span class="fa fa-minus left"></span><span class="nav-top"><a href="#">SK8 NEWS</a></span><span class="fa fa-minus right"></span>
+          </li>
+          <li role="presentation" class="col-xs-12 col-md-3">
+            <span class="fa fa-minus left"></span><span class="nav-top"><a href="#">SKATEBOARDS</a></span><span class="fa fa-minus right">
+            </span>
+          </li>
+
+          <li role="presentation" class="col-xs-12 col-md-3">
+            <span class="fa fa-minus left"></span><span class="nav-top"><a href="#">BOARD VISION</a></span><span class="fa fa-minus right">
+            </span>
+          </li>
+
+          <li role="presentation" class="col-xs-12 col-md-3"><span class="fa fa-minus left"></span><span class="nav-top"><a href="#">CONTACT US</a></span><span class="fa fa-minus right"></span></li>
+        </ul>
+  </div>
+
+
+
+  <!--end of Navigation -->
+
+
+
       <div class="row social-nav">
-        <div class="subscribe-link col-md-8">
+
+
+        <div class="subscribe-link hidden-xs hidden-md col-md-8">
           <a href="#">SUBSCRIBE</a>
         </div>
 
 
         <div class="col-md-4"> <!--Social Links-->
           <ul class="social-links">
-            <li class=border></li>
-              <li class="facebook"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li class="border hidden-xs hidden-sm"></li>
+              <li class="facebook hidden-xs hidden-sm"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
 
-            <li class="rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li class="rss hidden-xs hidden-sm"><a href="#"><i class="fa fa-rss"></i></a></li>
 
-            <li class="twitter"><a href="#"><i class="fa fa-twitter-square"></i>
+            <li class="twitter hidden-xs hidden-sm"><a href="#"><i class="fa fa-twitter-square"></i>
             </a></li>
 
 
-            <li class="youtube"><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+            <li class="youtube hidden-xs hidden-sm"><a href="#"><i class="fa fa-youtube-square"></i></a></li>
           </ul>
         </div><!--end of social-links-->
       </div><!--end of social-nav row-->
 
-      <div class="top-nav">
+      <div class="top-nav hidden-xs hidden-md">
           <ul class="row nav-pills">
             <li role="presentation" class="col-xs-12 col-md-3">
               <span class="fa fa-minus"></span><span class="nav-top"><a href="#">SK8 NEWS</a></span><span class="fa fa-minus"></span>
